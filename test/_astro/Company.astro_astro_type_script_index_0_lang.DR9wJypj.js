@@ -1,1 +1,0 @@
-import{t as e}from"./facts.Do_fT99v.js";e();
