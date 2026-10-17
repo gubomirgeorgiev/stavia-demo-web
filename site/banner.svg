@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 420" width="560" height="420">
+  <!-- The site's banner (build plan, step 15): a calm map card, a paid zone, the
+       driver, the dotted walk and the coral dot of the place, drawn from the mark.
+       No words, so it serves both languages; decorative, with an empty alt. -->
+  <defs>
+    <clipPath id="card"><rect x="8" y="8" width="544" height="404" rx="28"/></clipPath>
+  </defs>
+  <g clip-path="url(#card)">
+    <rect x="8" y="8" width="544" height="404" fill="#E9EEEC"/>
+    <!-- A paid zone, soft, with a crisp edge. -->
+    <path d="M-10 250 L170 210 L250 300 L200 440 L-10 440 Z" fill="#2563EB" fill-opacity="0.10" stroke="#2563EB" stroke-opacity="0.55" stroke-width="3"/>
+    <!-- Streets. -->
+    <g fill="none" stroke="#FFFFFF" stroke-linecap="round">
+      <path d="M-20 120 C 140 140, 300 90, 580 130" stroke-width="22"/>
+      <path d="M120 -20 C 150 160, 110 300, 160 440" stroke-width="18"/>
+      <path d="M380 -20 C 360 140, 420 280, 400 440" stroke-width="18"/>
+      <path d="M-20 330 C 160 320, 360 360, 580 320" stroke-width="14"/>
+    </g>
+    <!-- Quiet spaces nearby: white pins pointing at their entrances. -->
+    <g>
+      <rect x="232" y="186" width="64" height="34" rx="17" fill="#FFFFFF" stroke="#CDD4DC" stroke-width="2"/>
+      <rect x="248" y="200" width="32" height="6" rx="3" fill="#8A94A3"/>
+      <path d="M258 219 L264 228 L270 219 Z" fill="#FFFFFF"/>
+      <rect x="440" y="244" width="64" height="34" rx="17" fill="#FFFFFF" stroke="#CDD4DC" stroke-width="2"/>
+      <rect x="456" y="258" width="32" height="6" rx="3" fill="#8A94A3"/>
+      <path d="M466 277 L472 286 L478 277 Z" fill="#FFFFFF"/>
+    </g>
+    <!-- The walk from the driver to the place, in dots. -->
+    <path d="M96 352 C 150 300, 200 260, 262 252 S 340 200, 330 120" fill="none" stroke="#0B1220" stroke-opacity="0.7" stroke-width="7" stroke-linecap="round" stroke-dasharray="0.1 16"/>
+    <!-- The driver: ink with a white ring. -->
+    <circle cx="96" cy="352" r="14" fill="#FFFFFF"/>
+    <circle cx="96" cy="352" r="9" fill="#0B1220"/>
+    <!-- The chosen place: the coral pin, and the mark's dot with a white ring. -->
+    <rect x="290" y="62" width="80" height="40" rx="20" fill="#FF5A3C"/>
+    <rect x="308" y="78" width="44" height="8" rx="4" fill="#0B1220"/>
+    <path d="M323 101 L330 112 L337 101 Z" fill="#FF5A3C"/>
+    <circle cx="330" cy="122" r="15" fill="#FFFFFF"/>
+    <circle cx="330" cy="122" r="10" fill="#FF5A3C"/>
+  </g>
+</svg>

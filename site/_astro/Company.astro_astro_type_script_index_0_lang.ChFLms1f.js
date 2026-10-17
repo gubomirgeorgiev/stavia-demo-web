@@ -1,0 +1,1 @@
+import{t as e}from"./facts.BB1Qmu6z.js";e();
